@@ -6,3 +6,10 @@ A. Gemset
 	3. rvm gemset list: de xem danh sach cac gem trong gemset
 
 B. Git
+	1. git init : de khoi tao git khi tao app
+	2. git remote add origin responsity_source
+	3. git add filename 
+	4. git commit -m "commit mess"
+	5. git push origin master
+
+	git status: show status of all changes
