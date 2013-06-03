@@ -1,0 +1,8 @@
+Chapter 1.
+A. Gemset
+	1. Cach su dung gemset: rvm@name
+	2. Cach su dung 1 gemset default cho moi project: tao 1 file .rmvc o thu moc goc cua project go vao noi dung: 
+		rvm use 1.9.3@gemsetName
+	3. rvm gemset list: de xem danh sach cac gem trong gemset
+
+B. Git
