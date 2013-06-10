@@ -7,23 +7,23 @@ A. Gemset
 
 B. Git
 
-  I) How to init GIT
+  I) How to init GIT & Simple case to commit and push code to origin/master
 		1. git init : de khoi tao git khi tao app
-		2. git remote add origin 			responsity_source(git@github.com:huynhquocthai/demo_app.git)
-	II) Simple case to commit and push code to origin/master
-		1. git add filename 
-		2. git commit -m "commit mess"
-		3. git push origin master
+		2. git add filename 
+		3. git commit -m "commit mess"
+		4. git remote add origin
+ responsity_source(git@github.com:huynhquocthai/demo_app.git)
+		5. git push origin master
 
-	I. Test conflict
+  II. Test conflict
 		1. git init : de khoi tao git khi tao app
 		2. git remote add origin responsity_source 
-	II. eeeee
+  III. eeeee
 	3. git add filename 
 	4. git commit -m "commit mess"
 	5. git push origin master
 
-	III. Xu ly  conflict
+  IV. Xu ly  conflict
 
 		1. git fetch: fetch code ve may
 		2. git rebase origin/master: update version code o local = version code o origin:
