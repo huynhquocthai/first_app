@@ -1,4 +1,4 @@
-Chapter 1.
+﻿Chapter 1.
 A. Gemset
 	1. Cach su dung gemset: rvm@name
 	2. Cach su dung 1 gemset default cho moi project: tao 1 file .rmvc o thu moc goc cua project go vao noi dung: 
@@ -9,7 +9,7 @@ B. Git
 
   I) How to init GIT
 		1. git init : de khoi tao git khi tao app
-		2. git remote add origin responsity_source
+		2. git remote add origin 			responsity_source(git@github.com:huynhquocthai/demo_app.git)
 	II) Simple case to commit and push code to origin/master
 		1. git add filename 
 		2. git commit -m "commit mess"
@@ -22,6 +22,18 @@ B. Git
 	3. git add filename 
 	4. git commit -m "commit mess"
 	5. git push origin master
+
+	III. Xu ly  conflict
+
+		1. git fetch: fetch code ve may
+		2. git rebase origin/master: update version code o local = version code o origin:
+			a. Bi conflict code: 
+			 + git status: xem nhung file nao bi conflict
+			 + Xu ly conflict code tren tung file mot
+			 + git add tung file conflict
+			 + git rebase --continue
+			 + gitk --all
+  			 +  git push origin master
 
 
 	git status: show status of all changes
